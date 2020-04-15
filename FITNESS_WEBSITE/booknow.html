@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="style2.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+        <script src="functions.js" async></script>
+        <link rel="prefetch" href="images/logo.png">
+        <link rel="prefetch" href="images/logo2.png">
+        <link rel="prefetch" href="images/running.jpeg">
+        <meta charset="utf-8">
+        <title>HOME</title>
+    </head>
+    <body>
+        <!--NAVIGATION BAR-->
+        <nav>
+            <div class="navBar" id="navBar">
+                <a href="index.html"><img src = "images/logo.png" alt = "Logo" width ="170" height="70" class ="logo" id="logo"></a>
+                <a href="instructors.html">INSTRUCTORS</a>
+                <a href="services.html">SERVICES</a>
+                <a href="bookOnline.html">BOOK ONLINE</a>
+                <a href="contact.html">CONTACT US</a>
+                <a href="javascript:void(0);" style="font-size:14px;" class="menu" onclick="myFunction()" >&#9776;</a>
+            </div>
+        </nav>
+        <div class="background-booking">
+            <h1>BOOK YOUR WORKOUT</h1>
+            <p>Fill the following form:</p>
+        </div>    
+        <div class="container-booknow">
+            <form>
+                NAME<br>
+                <input type="text" id="name" name="name" placeholder="Full Name...">                   <br>EMAIL<br>
+                <input type="text" id="email" name="email" placeholder="Email...">
+                <br>PHONE NUMBER<br>
+                <input type="tel" id="phone" name="phone" placeholder="Tel.">
+                <br>WORKOUT<br>
+                <select>
+                    <option value="Cardio-Fitness">Cardio Fitness</option>
+                    <option value="Core-Strength">Core Strength</option>
+                    <option value="Muscle-Toning">Muscle Toning</option>
+                    <option value="Posture-Correction">Posture Correction</option>
+                    <option value="TRX-Workout">TRX Workout</option>
+                    <option value="Weight-Loss">Weight Loss</option>
+                </select>
+                <br><input type="radio" name="workout-type"    value="Group" checked> Group Classes
+                <input type="radio" name="workout-type" value="Personal"> Personal Workout <br>
+                <br>DATE<br>
+                <input id="date" type="date" placeholder="dd/mm/yy"><br>
+                <br>TIME
+                <input id="appt-time" type="time" name="appt-time" value="12:00" max="20:00" min="12:00"> <br>  
+                <br><input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

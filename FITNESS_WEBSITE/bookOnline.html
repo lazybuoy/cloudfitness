@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="style2.css" type="text/css">
+        <script src="functions.js" async></script>
+        <link rel="prefetch" href="images/logo.png">
+        <link rel="prefetch" href="images/logo2.png">
+        <link rel="prefetch" href="images/running2.jpg">
+        <meta charset="utf-8">
+        <title>BOOK ONLINE</title>
+
+    </head>
+    <body>
+        <!--NAVIGATION BAR-->
+        <nav>
+            <div class="navBar" id="navBar">
+                <a href="index.html"><img src = "images/logo.png" alt = "Logo" width ="170" height="70" class ="logo" id="logo"></a>
+                <a href="instructors.html">INSTRUCTORS</a>
+                <a href="services.html">SERVICES</a>
+                <a href="bookOnline.html">BOOK ONLINE</a>
+                <a href="contact.html">CONTACT US</a>
+                <a href="javascript:void(0);" style="font-size:14px;" class="menu" onclick="myFunction()" >&#9776;</a>
+            </div>
+        </nav>
+        <div class="background-booking">
+            <h1>BOOK YOUR PLACE NOW!</h1>
+            <p>Choose your option:</p>
+        </div>
+        <div class="container-background">
+            <div class="container-booking">
+                <div class="tab-booking">
+                    <button class="tablink" onclick="openTab(event, 'Group')" id="default">GROUP WORKOUTS</button>
+                    <button class="tablink" onclick="openTab(event, 'Personal')">PERSONAL WORKOUTS</button>
+                </div>
+                <div id="Group" class="tab-content">
+                    <button class="collapse">Cardio Fitness Class</button>
+                    <div class="content">
+                        <p>60 min. full-body workout class. Consists of rigorous interval training sequence with high-intensity exercises. It builds cardiovascular fitness while also improving muscular strength and endurance. Suited for all levels and will get you to reach your fitness goals!</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">Core Strength Class</button> 
+                    <div class="content">
+                        <p>45 min. class that revolves around core strength and building up the body parts that we all want to show off. It will focus on toning, firming and shaping these areas using conventional and non-conventional.</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">Muscle Toning Class</button>
+                    <div class="content">
+                        <p>30 min. high-energy, total-body conditioning class that focuses on every muscle group with the intent of improving your cardiovascular strength and endurance. This workout is a calorie-buster that will provide impressive results by increasing strength and muscle tone.</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">Posture Correction Class</button>
+                    <div class="content">
+                        <p>60 min. posture class that focuses on specific muscles involved in a person's posture. We will perform different exercises that help strengthen these muscles and prevent bad posture or rehabilitate someone with bad posture.</p>                        
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">TRX Class</button>
+                    <div class="content">
+                        <p>45min. TRX full body resistance style class, using your own bodyweight and TRX suspension straps. TRX suspension training develops strength, balance, flexibility and core muscles all at the same time. Focus on giving a full body workout no matter what level of fitness you have.</p>               
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">Weight-Loss Class</button>
+                    <div class="content">
+                        <p>60 min. class. There is no catch! Just a weight loss class that allows you to keep slim and healthy without changing your diet. Losing weight has never been easier.</p>   
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                </div>
+
+                <div id="Personal" class="tab-content">
+                    <button class="collapse">Cardio Fitness Workout</button>
+                    <div class="content">
+                        <p>60 min. full-body personal workout. Consists of rigorous interval training sequence with high-intensity exercises. It builds cardiovascular fitness while also improving muscular strength and endurance. Suited for all levels and will get you to reach your fitness goals!</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">Core Strength Workout</button> 
+                    <div class="content">
+                        <p>45 min. personal workout that revolves around core strength and building up the body parts that we all want to show off. It will focus on toning, firming and shaping these areas using conventional and non-conventional.</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">Muscle Toning Workout</button>
+                    <div class="content">
+                        <p>30 min. high-energy, total-body conditioning personal workout that focuses on every muscle group with the intent of improving your cardiovascular strength and endurance. This workout is a calorie-buster that will provide impressive results by increasing strength and muscle tone.</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">Posture Correction Workout</button>
+                    <div class="content">
+                        <p>60 min. posture personal workout that focuses on specific muscles involved in a person's posture. We will perform different exercises that help strengthen these muscles and prevent bad posture or rehabilitate someone with bad posture.</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">TRX Workout</button>
+                    <div class="content">
+                        <p>45min. TRX full body resistance style personal workout, using your own bodyweight and TRX suspension straps. TRX suspension training develops strength, balance, flexibility and core muscles all at the same time. Focus on giving a full body workout no matter what level of fitness you have.</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                    <button class="collapse">Weight-Loss Workout</button>
+                    <div class="content">
+                        <p>60 min. class. There is no catch! Just a weight loss personal workout that allows you to keep slim and healthy without changing your diet. Losing weight has never been easier.</p>
+                        <button class="booknow" onclick="location.href='booknow.html'">Book now</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+         
+        <script>
+            function openTab(evt, workout) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tab-content");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablink = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablink.length; i++) {
+                    tablink[i].className = tablink[i].className.replace(" active", "");
+                }
+                document.getElementById(workout).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("default").click();
+    
+    
+            var coll = document.getElementsByClassName("collapse");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;  
+                    if (content.style.maxHeight){
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    } 
+                });
+            }
+        </script>
+    </body>
+</html>
+        
